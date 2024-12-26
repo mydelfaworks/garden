@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+* {
+    font-family: Ubuntu, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: 187px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.logo-block {
+}
+.logo-title {}
+
+.logo-text {}
+
+.list {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.item {
+    list-style: none;
+}
+
+.item:last-child{
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+}
