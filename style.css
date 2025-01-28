@@ -1,13 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu);
-
-* {
-    font-family: Ubuntu, sans-serif;
+:root {
+    --font-roboto: "Roboto", serif;
+    --font-libre: "Libre Baskerville", serif;
+    --grn: #475f45;
 }
 
-.header {
-    display: flex;
-    justify-content: center;
-    column-gap: 187px;
+
+* {
+    box-sizing: border-box;
 }
 
 .logo {
@@ -16,23 +15,32 @@
     column-gap: 14px;
 }
 
-.logo-block {
+.header {
+    display: flex;
+    justify-content: center;
+    column-gap: 187px;
 }
-.logo-title {}
 
-.logo-text {}
-
-.list {
+.logo__icon {
     display: flex;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 14px;
 }
 
-.item {
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item {
     list-style: none;
 }
 
-.item:last-child{
+/* .nav__list:last-child {
+    border: 2px;
+} */
+.nav__item_border {
     border: 2px solid #475F45;
     padding: 15px 30px;
 }
