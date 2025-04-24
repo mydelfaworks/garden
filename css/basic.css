@@ -1,0 +1,42 @@
+:root {
+    --font-roboto: "Roboto", serif;
+    --font-libre: "Libre Baskerville", serif;
+    --grn: #475f45;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-family: var(--font-roboto);
+    border: 2px solid var(--grn);
+    padding: 20px 40px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
