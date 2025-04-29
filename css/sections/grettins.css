@@ -52,3 +52,15 @@
 .gretins__block-img img {
     border-radius: 500px 500px 0 0;
 }
+
+@media(max-width: 1080px) {
+    .gretings__content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        row-gap: 64px;
+    }
+    .gretings__btn-block {
+        justify-content: center;
+    }
+}

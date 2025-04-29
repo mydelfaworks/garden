@@ -9,6 +9,7 @@
 .header .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo__icon {
@@ -32,9 +33,6 @@
     color: #414840;
 }
 
-/* .nav__list:last-child {
-    border: 2px;
-} */
 .nav__item_border {
     border: 2px solid #475F45;
     padding: 15px 30px;
@@ -55,4 +53,26 @@
     font-size: 15px;
     letter-spacing: 0.01em;
     color: #333;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.burger-menu__line {
+    width: 24px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #343d33;
+}
+
+@media(max-width: 1080px) {
+    .nav__list {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
 }
