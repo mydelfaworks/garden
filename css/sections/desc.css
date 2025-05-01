@@ -1,0 +1,41 @@
+.desc {
+    margin-top: 86px;
+    background-color: #343D33;
+    padding: 125px 0 67px 0;
+}
+
+.desc__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+}
+
+.desc__info-block {
+    max-width: 417px;
+}
+
+.desc__title {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.desc__text {
+    margin-top: 32px;
+    font-family: var(--font-roboto);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.desc__btn {
+    margin-top: 32px;
+    background: transparent;
+    color: white;
+    border-color: white;
+}
