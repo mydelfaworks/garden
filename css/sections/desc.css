@@ -2,6 +2,7 @@
     margin-top: 86px;
     background-color: #343D33;
     padding: 125px 0 67px 0;
+    position: relative;
 }
 
 .desc__content {
@@ -9,6 +10,8 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 75px;
+    position: relative;
+    z-index: 10;
 }
 
 .desc__info-block {
@@ -38,4 +41,26 @@
     background: transparent;
     color: white;
     border-color: white;
+}
+
+.desc__leaf {
+    position: absolute;
+    top: 362px;
+    right: 0;
+    z-index: 1;
+}
+
+@media(max-width: 1041px) {
+    .desc__content img:last-child {
+        order: 1;
+    }
+    .desc__info-block {
+        order: 2;
+    }
+    .desc__leaf {
+        top: 68%;
+    }
+    .desc__content img:first-child {
+        width: 90%;
+    }
 }
