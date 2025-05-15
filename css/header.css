@@ -1,0 +1,80 @@
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__icon {
+    display: flex;
+    align-items: center;
+    column-gap: 14px;
+    min-width: 59px;
+}
+
+.logo__title {
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #343d33;
+}
+
+.logo__text {
+    font-family: var(--font-roboto);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #333;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.nav__item {
+    list-style: none;
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #414840;
+}
+
+.nav__item_border {
+    border: 2px solid #475F45;
+    padding: 15px 30px;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.burger-menu__line {
+    width: 24px;
+    height: 2px;
+    border-radius: 8px;
+    background-color: #343D33;
+}
+
+@media(max-width: 1080px) {
+    .nav__list {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+}
