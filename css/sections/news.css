@@ -1,0 +1,39 @@
+.news {
+    margin-top: 126px;
+}
+
+.news__content {}
+
+.news__main-title {
+    font-family: var(--font-libre);
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #343d33;
+}
+
+.news__link {
+    font-family: var(--font-roboto);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #475f45;
+}
+
+.news__posts {}
+
+.news__main-post {}
+
+.news__title {}
+
+.news__text {}
+
+.news__date {}
+
+.news__list {}
+
+.news__post {}
+
+.news__post-block {}
